@@ -1,6 +1,52 @@
 body {
-  font-family: sans-serif;
-  // background-color: red;
-  // background-image: url('../img/puppy.jpg');
+  font-family: monospace;
   background-size: cover;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+
+.l-menu {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: row;
+  background-color: #eee;
+}
+
+.item {
+  display: flex;
+}
+
+.-uno {
+  // flex-grow: 1;
+  // flex-shrink: 3;
+  flex-basis: auto;
+  background-color: blueviolet;
+}
+
+.-dos {
+  // flex-grow: 2;
+  // flex-shrink: 1;
+  flex-basis: 100%;
+  background-color: orange;
+}
+
+.-tres {
+  // flex-grow: 1;
+  // flex-shrink: 2;
+  flex-basis: 100%;
+  background-color: green;
+}
+
+.-cuatro {
+  // flex-grow: 1;
+  // flex-shrink: 1;
+  flex-basis: 100%;
+  background-color: yellow;
+}
+
+
